@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Merriweather:wght@400;700;900&family=Roboto+Mono:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  background-color: #F8F9FC;
+  font-family: "Karla";
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  color: #343a40;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 900;
+  color: #40916c;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #1b4332;
+}
+
+a {
+  color: #40916c;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 1.5;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #74c69d;
+}
+
+#btn-green-big {
+  color: white;
+  font-size: 15px;
+  background-color: #40916c;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 20px;
+  line-height: 4;
+}
+
+#btn-green-big:hover {
+  background-color: #081c15;
+}
+
+.container {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 20px;
+  margin: 30px auto;
+  border-radius: 5px;
+  box-shadow: 0px 6px 14px rgba(0,0,0,0.1);
+}
+
+.img-circle {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding-left: 10px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+/* @media (max-width: 320px) {
+  .container {
+    width: 120px;
+  }
+  .img-circle {
+    width: 60px;
+  }
+  body {
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    color: #343a40;
+  }
+} */
